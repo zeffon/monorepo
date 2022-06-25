@@ -6,12 +6,12 @@ Language : [English](./README.md) | 简体中文
 
 ## 使用
 
-`monorepo` 是该 **github** 仓库名称
-`z-monorepo` 是该仓库 `packages/z-monorepo` 项目名称
+`your_repo_name` 是该 **github** 仓库名称
+`project_name` 是该仓库 `packages/project_name` 项目名称
 
-使用该仓库模板时，
-1. 请全局替换 `monorepo`    ->  `你的 **github** 仓库名称`
-2. 请全局替换 `z-monorepo`  ->  `packages 目录下项目名称`
+使用该单体仓库模板时，
+1. 请全局替换 `your_repo_name`    ->  `你的 **github** 仓库名称`
+2. 请全局替换 `project_name`  ->  `packages 目录下项目名称`
 
 ## License
 

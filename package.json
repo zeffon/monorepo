@@ -1,5 +1,5 @@
 {
-  "name": "z-monorepo-monorepo",
+  "name": "your_repo_name-monorepo",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -53,7 +53,7 @@
   "packageManager": "pnpm@7.3.0",
   "pnpm": {
     "overrides": {
-      "z-monorepo": "workspace:*"
+      "project_name": "workspace:*"
     }
   }
 }

@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 overrides:
-  z-monorepo: workspace:*
+  project_name: workspace:*
 
 importers:
 

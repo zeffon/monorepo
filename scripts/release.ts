@@ -58,7 +58,7 @@ async function main(): Promise<void> {
     throw new Error(`invalid target version: ${targetVersion}`)
   }
 
-  const tag = pkgName === 'z-monorepo' ? `v${targetVersion}` : `${pkgName}@${targetVersion}`
+  const tag = pkgName === 'project_name' ? `v${targetVersion}` : `${pkgName}@${targetVersion}`
 
   if (targetVersion.includes('beta') && !args.tag) {
     args.tag = 'beta'
@@ -88,7 +88,7 @@ async function main(): Promise<void> {
     '--commit-path',
     '.'
   ]
-  if (pkgName !== 'z-monorepo') changelogArgs.push('--lerna-package', 'plugin-vue')
+  if (pkgName !== 'project_name') changelogArgs.push('--lerna-package', 'plugin-vue')
   await run('npx', changelogArgs, { cwd: pkgDir })
 
   const { stdout } = await run('git', ['diff'], { stdio: 'pipe' })
@@ -111,7 +111,7 @@ async function main(): Promise<void> {
   } else {
     console.log(
       colors.green(
-        '\nPushed, publishing should starts shortly on CI.\nhttps://github.com/zeffon/monorepo/actions/workflows/publish.yml'
+        '\nPushed, publishing should starts shortly on CI.\nhttps://github.com/zeffon/your_repo_name/actions/workflows/publish.yml'
       )
     )
   }

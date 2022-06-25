@@ -6,13 +6,13 @@ This is a monomer repository (monorepo) template.
 
 ## Usage
 
-`monorepo` is your **github** repository name
-`z-monorepo` repository's `packages/z-monorepo` project name
+`your_repo_name` is your **github** repository name
+`project_name` repository's `packages/project_name` project name
 
 when you use this monorepo template :
 
-1. please replace all `monorepo`  to  `your github repository name`
-2. please replace all `z-monorepo`  to  `packages's project name`
+1. please replace all `your_repo_name`  to  `your github repository name`
+2. please replace all `project_name`  to  `packages's project name`
 
 ## License
 

@@ -10,7 +10,7 @@ async function main() {
     throw new Error('No tag specified')
   }
 
-  let pkgName = 'z-monorepo'
+  let pkgName = 'project_name'
   let version
 
   if (tag.includes('@')) [pkgName, version] = tag.split('@')
