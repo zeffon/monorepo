@@ -4,6 +4,8 @@ Language : English | [简体中文](./README-zh-CN.md)
 
 This is a monomer repository (monorepo) template.
 
+> This template is from the [vite](https://github.com/vitejs/vite) project
+
 ## Usage
 
 `your_repo_name` is your **github** repository name
@@ -11,8 +13,8 @@ This is a monomer repository (monorepo) template.
 
 when you use this monorepo template :
 
-1. please replace all `your_repo_name`  to  `your github repository name`
-2. please replace all `project_name`  to  `packages's project name`
+1. please replace all `your_repo_name` to `your github repository name`
+2. please replace all `project_name` to `packages's project name`
 
 ## License
 

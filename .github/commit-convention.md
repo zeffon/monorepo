@@ -1,7 +1,5 @@
 ## Git Commit Message Convention
 
-> This is adapted from [Vuejs/core's commit convention](https://github.com/vuejs/core/blob/main/.github/commit-convention.md).
-
 #### TL;DR:
 
 Messages must be matched by the following regex:
