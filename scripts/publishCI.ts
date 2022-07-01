@@ -1,6 +1,3 @@
-/**
- * modified from https://github.com/vitejs/vite/blob/main/scripts/publishCI.ts
- */
 import { args, getPackageInfo, publishPackage, step } from './releaseUtils'
 
 async function main() {

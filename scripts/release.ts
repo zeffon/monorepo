@@ -1,6 +1,3 @@
-/**
- * modified from https://github.com/vitejs/vite/blob/main/scripts/release.ts
- */
 import prompts from 'prompts'
 import semver from 'semver'
 import colors from 'picocolors'
@@ -88,7 +85,7 @@ async function main(): Promise<void> {
     '--commit-path',
     '.'
   ]
-  if (pkgName !== 'project_name') changelogArgs.push('--lerna-package', 'plugin-vue')
+  if (pkgName !== 'project_name') changelogArgs.push('--lerna-package')
   await run('npx', changelogArgs, { cwd: pkgDir })
 
   const { stdout } = await run('git', ['diff'], { stdio: 'pipe' })
