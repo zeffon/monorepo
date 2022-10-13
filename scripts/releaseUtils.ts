@@ -171,6 +171,11 @@ export async function getLatestTag(pkgName: string): Promise<string> {
     .reverse()[0]
 }
 
+export async function getActiveVersion(pkgName: string): Promise<string> {
+  const npmName = pkgName === 'project_name' ? pkgName : `other_project_name`
+  return (await run('npm', ['info', npmName, 'version'], { stdio: 'pipe' })).stdout
+}
+
 export async function logRecentCommits(pkgName: string): Promise<void> {
   const tag = await getLatestTag(pkgName)
   if (!tag) return
