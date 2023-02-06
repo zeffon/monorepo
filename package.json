@@ -17,29 +17,28 @@
     "ci-publish": "tsx scripts/publishCI.ts"
   },
   "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
+    "@types/fs-extra": "^11.0.1",
     "@types/minimist": "^1.2.2",
-    "@types/node": "^18.11.10",
-    "@types/prompts": "^2.4.1",
+    "@types/node": "^18.11.18",
+    "@types/prompts": "^2.4.2",
     "@types/semver": "^7.3.13",
-    "@typescript-eslint/eslint-plugin": "^5.45.0",
-    "@typescript-eslint/parser": "^5.45.0",
+    "@typescript-eslint/eslint-plugin": "^5.49.0",
+    "@typescript-eslint/parser": "^5.49.0",
     "conventional-changelog-cli": "^2.2.2",
-    "eslint": "^8.29.0",
-    "eslint-define-config": "^1.12.0",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint": "^8.33.0",
+    "eslint-define-config": "^1.14.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
     "execa": "^6.1.0",
-    "fs-extra": "^10.1.0",
+    "fs-extra": "^11.1.0",
     "lint-staged": "^13.1.0",
     "minimist": "^1.2.7",
     "picocolors": "^1.0.0",
-    "pnpm": "^7.18.1",
-    "prettier": "2.8.0",
+    "prettier": "2.8.3",
     "prompts": "^2.4.2",
     "semver": "^7.3.8",
     "simple-git-hooks": "^2.8.1",
-    "tsx": "^3.12.1",
+    "tsx": "^3.12.2",
     "typescript": "^4.9.3"
   },
   "simple-git-hooks": {
@@ -57,7 +56,7 @@
       "eslint --cache --fix"
     ]
   },
-  "packageManager": "pnpm@7.18.1",
+  "packageManager": "pnpm@7.26.2",
   "pnpm": {
     "overrides": {
       "project_name": "workspace:*"
